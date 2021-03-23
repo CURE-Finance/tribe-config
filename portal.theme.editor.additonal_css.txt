@@ -90,3 +90,6 @@ body .ui.menu.main-menu {padding-top: 20px;}
 
 /*box weg auf profilseiten*/
 .user-profile-wrapper .cboxganz {display:none}
+
+/*Haupt-Feed Button ausblenden*/
+.content-group-selector-wrapper {display: none;}
