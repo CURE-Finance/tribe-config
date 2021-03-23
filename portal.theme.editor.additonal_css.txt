@@ -1,48 +1,83 @@
 .main-sidebar .emoji, .vertical.menu .item .emoji {
     display: none !important;
 }
- 
+
 .ui.header:first-child {
     margin-top: 0.857143em;
     text-align: left;
     color: #41d5c7;
 }
- 
+
 /*changes kai 21 03 08*/
- 
+
 /*icon world zu green*/
 .selected-group-image.main-feed-icon {color: #41d5c7;}
- 
+
 .group-picker-wrapper .main-feed-icon {color: #41d5c7;}
- 
+
 /*button Frage stellen abrunden*/
 .ui.primary.button, .ui.primary.buttons .button {border-radius: 10em;}
- 
+
 /*button Foto/Video abrunden*/
 .ui.basic.buttons .button, body .ui.basic.button {border-radius: 10em;}
- 
+
 /*Gruppen Banner HG-Farbe*/
 .group-banner {background-color: rgb(250 250 250)!important;}
- 
+
 /*buttons dein feed, gruppen*/
 .ui.secondary.vertical.menu>.item {border-radius: 10em!important;}
- 
+
 /*suchfeld runde ecken + outline-farbe*/
 .ui.search.global-search input.prompt {border-radius: 10em; border-color: #41d5c7;}
- 
+
 /*antwort button*/
 .card-footer-left-item a.ui.basic.button, .card-footer-left-item button.ui.basic.button {border-radius: 10em!important;}
- 
+
 /*Link Home und Logo entfernt*/
 .header-home-link {display:none!important;}
 .header-logo {display:none!important;}
- 
+
 /* changes Stefan 08.03.2021 */
- 
+
 /*Leader board heading */
 .users-leaderboard > div > div:nth-child(1) > h5 > span {
 display: none !important;
 }
 .users-leaderboard > div > div:nth-child(1) > h5:after {
-content: 'Reputation' !important;
+content: 'Top Reputation' !important;
 }
+
+/*link zurück zur webseite nach rechts*/
+.ui.menu.main-navbar .item:not(:first-child) {
+    justify-content: flex-end;
+    flex: 1;
+       color: #41d5c7;
+}
+
+.ui.menu.main-navbar {
+    box-shadow: rgba(71, 78, 99, 0.16) 0 3px 10px;
+    position:relative;
+}
+
+body .ui.menu.main-menu {padding-top: 20px;}
+
+
+/*profil bearbeiten titel label zu fachrichtung*/
+.profile-title-field label {  visibility: hidden;
+    position: relative;}
+    
+.profile-title-field label:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Fachrichtung";
+}    
+
+/*platzhalter in formfeldern unsichtbar*/
+::-webkit-input-placeholder { /* Edge */ opacity: 0;}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ opacity: 0;}
+
+::placeholder {opacity: 0;}
+
