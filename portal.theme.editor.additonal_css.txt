@@ -71,7 +71,7 @@ body .ui.menu.main-menu {padding-top: 20px;}
     position: absolute;
     top: 0;
     left: 0;
-    content: "Fachrichtung";
+    content: "Fachrichtung, Ort";
 }    
 
 /*platzhalter in formfeldern unsichtbar*/
@@ -81,3 +81,9 @@ body .ui.menu.main-menu {padding-top: 20px;}
 
 ::placeholder {opacity: 0;}
 
+
+/*weisse box fuellen*/
+.hlwb {color: #41d5c7;}
+.cheadbox {border-bottom:1px solid #E5E5E5;height:25px;padding-bottom: 30px;}
+.hlwb2 {padding:20px 0px}
+.cheadbox2 {}
