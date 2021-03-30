@@ -93,3 +93,6 @@ body .ui.menu.main-menu {padding-top: 20px;}
 
 /*Haupt-Feed Button ausblenden*/
 .content-group-selector-wrapper {display: none;}
+
+/* XX liked 17 hours ago ausblenden */
+.last-action-bar {display: none}
