@@ -96,3 +96,8 @@ body .ui.menu.main-menu {padding-top: 20px;}
 
 /* XX liked 17 hours ago ausblenden */
 .last-action-bar {display: none}
+
+/* Gruppe in der Navi verschwinden lassen */
+a[href="/groups"] {
+     display: none !important;
+}
