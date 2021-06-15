@@ -102,6 +102,6 @@ a[href="/groups"] {
      display: none !important;
 }
 
-/* stefan 17.05.2021 */
-/*Warnung wg. E-Mail verschwinden lassen*/
-.ui.warning.message {display: none;}
+/* stefan 15.06.2021 */
+/* 25-50-75% verschwinden lassen*/
+.ui.segments.user-todos {display: none;}
