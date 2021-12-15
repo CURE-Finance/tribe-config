@@ -5,4 +5,13 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NS579FB');</script>
 <!-- End Google Tag Manager -->
-    
+
+<!-- Replace Change E-Mail Button in Profile in SSO mode -->
+<script>
+    window.Tribe = {
+        onReady: function(pathname) {
+            var elem = document.querySelector("#app > div > div > main > div:nth-child(3) > div > div.nine.wide.computer.eleven.wide.tablet.column > div > form > div > div.ui.clearing.segment > button > span");
+            elem.innerHTML = '<span>Weitere Kontoeinstellungen</span>';
+        }
+    }
+</script>
