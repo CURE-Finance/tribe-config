@@ -7,11 +7,8 @@
 <!-- End Google Tag Manager -->
 
 <!-- Replace Change E-Mail Button in Profile in SSO mode -->
-<script>
-    window.Tribe = {
-        onReady: function(pathname) {
-            var elem = document.querySelector("#app > div > div > main > div:nth-child(3) > div > div.nine.wide.computer.eleven.wide.tablet.column > div > form > div > div.ui.clearing.segment > button > span");
-            elem.innerHTML = '<span>Weitere Kontoeinstellungen</span>';
-        }
-    }
+<script type ="text/javascript">
+    window.onload = function what(){
+      document.querySelector("#app > div > div > main > div:nth-child(3) > div > div.nine.wide.computer.eleven.wide.tablet.column > div > form > div > div.ui.clearing.segment > a > span").innerHTML="Weitere Kontoeinstellungen" 
+      }
 </script>
