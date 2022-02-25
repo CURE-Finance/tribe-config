@@ -105,3 +105,13 @@ a[href="/groups"] {
 /* stefan 15.06.2021 */
 /* 25-50-75% verschwinden lassen*/
 .ui.segments.user-todos {display: none;}
+
+/* stefan 9.7.2021 */
+/* rss feed verschwinden lassen */
+i.orange.rss.square.large.icon::before{
+display: none !important;
+}
+
+div.item.float-right.filter-bar-rss{
+display: none !important;
+}
